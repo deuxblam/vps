@@ -38,7 +38,7 @@ echo -e "\033[1;31mPara que la instalacion sea correcta se necesita una ip.
 Digite su ip !\033[0m"
 read -p ": " ip
 clear
-echo -e "\033[1;31m-----> \033[01;37mScript VPSPACK 2.3 P\033[0m"
+echo -e "\033[1;31m-----> \033[01;37mScript VPSPACK 2.3 Deuxblam\033[0m"
 echo -e "\033[1;31m-----> \033[01;37mSistema:\033[1;31m $sistema"
 echo -e "\033[1;31m-----> \033[01;37mSu ip agregada:\033[1;31m $ip"
 echo -e "\033[1;31m-----> \033[1;37mSQUID:\033[1;31m 80, 8080, 8799, 3128\033[0m"
@@ -54,10 +54,6 @@ Port 443
 PermitRootLogin yes
 PubkeyAuthentication yes
 PasswordAuthentication yes
-Ciphers aes128-ctr,aes192-ctr,aes256-ctr
-HostKeyAlgorithms ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,ssh-dss
-KexAlgorithms ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha256
-MACs hmac-sha2-256,hmac-sha2-512,hmac-sha1
 # VPSPack
 ' >> /etc/ssh/sshd_config
 }
