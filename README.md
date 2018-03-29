@@ -1,7 +1,7 @@
 # VPSPACK v2.3
 Instalador de Paquetes para VPS - OpenSSH - Squid3 - Dropbear
 
-PowerMX - VPSPACK
+Deuxblam - VPSPACK
 =========
 ## Instalacion Recomendada:
 ### Debian 7.11 x64
