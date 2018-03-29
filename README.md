@@ -6,7 +6,7 @@ Deuxblam - VPSPACK
 ## Instalacion Recomendada:
 ### Debian 7.11 x64
 ```
-apt-get update && apt-get upgrade && apt-get install ca-certificates && wget https://
+apt-get update && apt-get upgrade && apt-get install ca-certificates && wget https://raw.githubusercontent.com/deuxblam/vpspack/master/install && bash install && vpspack
 
 ### Servicios Instalados
 * OpenSSH 22, 443
