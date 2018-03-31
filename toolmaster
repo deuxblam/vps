@@ -18,8 +18,7 @@ def slowprint(s):
 banner = '''
                                                                                        
 ========= ToolMaster =======\033[91m
-========== @PowerMX=========\033[92m
-======= Telegram @PwrMX ====\033[96m
+========== @Mnahkl=========\033[92m
 '''
 print banner
 def menu():
@@ -128,9 +127,9 @@ def  select():
     elif joker == 11:
       slowprint("ToolMaster \033[92m")
       slowprint(".....................")
-      slowprint("@PowerMX \033[96m")
+      slowprint("@Manahkl \033[96m")
       slowprint(".........................")
-      slowprint("website : powermx.org \033[91m")
+      slowprint("website : ...... \033[91m")
       ext() 
     elif joker == 0:
       print "Exiting!!"
