@@ -1,0 +1,24 @@
+#!/bin/bash
+name=$(cat /etc/cache202.sh)
+rm /etc/cache202.sh
+read -p "Cual es la nueva contraseña para $name: " senha
+if (echo $senha | egrep '[^a-zA-Z0-9]' &> /dev/null)
+then
+echo -e "\033[1;31mError!!\033[0;31m Usted digito una pass inválida! \033[0m"
+exit
+else
+echo ""
+fi
+sizemaxpass=$(echo ${#senha})
+if [[ $sizemaxpass -gt 9 ]]
+then
+echo -e "\033[1;31mError!! \033[0;31mUsted digito una contraseña muy larga,
+ Use un máximo de 9 caracteres!\033[0m"
+exit
+else
+echo ""
+fi
+(echo "$senha" ; echo "$senha" ) |passwd $name > /dev/null 2>/dev/null
+rm /etc/VpsPackdir/senha/$name /dev/null 2>/dev/null
+echo "$senha" > /etc/VpsPackdir/senha/$name
+echo "Nueva contraseña aplicada"
