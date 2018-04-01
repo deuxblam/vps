@@ -702,8 +702,6 @@ echo "$user Borrado"
 done
 }
 clear
-if [[ $1 == "" ]]
-then
 echo -e "\033[1;33m       VpsPack Perfomance By (Deuxblam) \033[0m"
 echo -e "\033[1;33mSeleccione una opcion:    Para Salir Ctrl + C\033[1;35m
 [1] Configurar_Squid_SSH_Dropbear \033[1;36m(Configuracion Squid, OpenSSH y Dropbear)\033[1;35m
