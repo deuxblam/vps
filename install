@@ -19,8 +19,8 @@ rm -rf /bin/deletarusuario 2>/dev/null
 wget -o /dev/null -O- https://raw.githubusercontent.com/deuxblam/vpspack/master/deletarusuario > /bin/deletarusuario
 chmod +x /bin/deletarusuario
 rm -rf /bin/redefinirusuario 2>/dev/null
-wget -o /dev/null -O- https://raw.githubusercontent.com/deuxblam/vpspack/master/redefinirusuario > /bin/redefinirusuario
-chmod +x /bin/redefinirusuario
+wget -o /dev/null -O- https://raw.githubusercontent.com/deuxblam/vpspack/master/UserRedefine > /bin/UserRedefine
+chmod +x /bin/UserRedefine
 rm -rf /bin/vpspack 2>/dev/null
 wget -o /dev/null -O- https://raw.githubusercontent.com/deuxblam/vpspack/master/vpspack > /bin/vpspack
 chmod +x /bin/vpspack
