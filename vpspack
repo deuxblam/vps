@@ -799,4 +799,6 @@ case $opcao in
    rm -rf /bin/vpspack 2>/dev/null;;
   25)
    dropbear;;
+ *)
+  id > /dev/null 2> /dev/null
 esac
