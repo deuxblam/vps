@@ -776,7 +776,6 @@ case $opcao in
    restaurar_usuarios;;
   19)
    detalhes_usuarios;;
-   vpspack;;
   20)
    banner;;
   21)
