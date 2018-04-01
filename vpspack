@@ -776,7 +776,7 @@ case $opcao in
    restaurar_usuarios;;
   19)
    detalhes_usuarios;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente vpspack..."
+   read -n -r -p " Presione una tecla para abrir nuevamente vpspack..."
    vpspack;;
   20)
    banner;;
@@ -801,4 +801,6 @@ case $opcao in
    rm -rf /bin/vpspack 2>/dev/null;;
   25)
    dropbear;;
+  *)
+   id > /dev/null 2> /dev/null
 esac
