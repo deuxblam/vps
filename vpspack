@@ -701,7 +701,6 @@ userdel $user
 echo "$user Borrado"
 done
 }
-fi
 clear
 echo -e "\033[1;33m       VpsPack Perfomance By (Deuxblam) \033[0m"
 echo -e "\033[1;33mSeleccione una opcion:    Para Salir Ctrl + C\033[1;35m
