@@ -716,7 +716,7 @@ echo -e "\033[1;37mSeleccione una opcion:    Para Salir Ctrl + C\033[1;33m
 [\033[1;32m08\033[1;35m] BadVpn_Stop \033[1;36m(Parar servicio de badvpn)\033[1;35m
 [\033[1;32m09\033[1;35m] Remover_Limite \033[1;36m(Remover limite de conexiones de un usuario)\033[1;35m
 [\033[1;32m10\033[1;35m] Modificar_Nombre \033[1;36m(Modificar el nombre de un usuario)\033[1;35m
-[\033[1;32m11\033[1;35m] RedefinirUsuario \033[1;36m(Redefinir Fecha, contraseña, etc)\033[1;35m
+[\033[1;32m11\033[1;35m] Redefinir_Usuario \033[1;36m(Redefinir Fecha, contraseña, etc)\033[1;35m
 [\033[1;32m12\033[1;35m] Eliminar_Usuario \033[1;36m(Menu Eliminar, Desconectar, etc)\033[1;35m
 [\033[1;32m13\033[1;35m] Firewall-block \033[1;36m(bloquear torrent, icmp [\033[1;31mRIESGO\033[1;30m])\033[1;35m
 [\033[1;32m14\033[1;35m] Reset_Firewall \033[1;36m(Resetar reglas iptables [\033[1;31mRIESGO\033[1;30m])\033[1;35m
@@ -763,7 +763,7 @@ case $opcao in
   10)
    mudarnome;; 
   11)
-   UserRedefine;;
+   redefinirusuario;;
   12)
    deletarusuario;;
   13)
