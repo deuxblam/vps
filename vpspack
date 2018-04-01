@@ -703,34 +703,34 @@ done
 }
 clear
 echo -e "\033[1;33m       VpsPack Perfomance By (Deuxblam) \033[0m"
-echo -e "\033[1;33mSeleccione una opcion:    Para Salir Ctrl + C\033[1;35m
-[1] Configurar_Squid_SSH_Dropbear \033[1;36m(Configuracion Squid, OpenSSH y Dropbear)\033[1;35m
-[2] Limite \033[1;36m(limite de conexiones simultaneas)\033[1;35m
-[3] Crear_Usuario \033[1;36m(Crear usuarios)\033[1;35m
-[4] Remover_expirados \033[1;36m(Remover usuarios expirados)\033[1;35m
-[5] Crear_Prueba \033[1;36m(Criar usuarios de corta duracion)\033[1;35m
-[6] BadVpn \033[1;36m(Instala badvpn para tunnel udp)\033[1;35m
-[7] BadVpn_Start \033[1;36m(Activar llamadas voip, juegos online, etc)\033[1;35m
-[8] BadVpn_Stop \033[1;36m(Parar servicio de badvpn)\033[1;35m
-[9] Remover_Limite \033[1;36m(Remover limite de conexiones de un usuario)\033[1;35m
-[10] Modificar_Nombre \033[1;36m(Modificar el nombre de un usuario)\033[1;35m
-[11] Redefinir_Usuario \033[1;36m(Redefinir Fecha, contraseña, Eliminar, Apagar)\033[1;35m
-[12] Firewall-block \033[1;36m(bloquear torrent, icmp [\033[1;31mRIESGO\033[1;30m])\033[1;35m
-[13] Reset_Firewall \033[1;36m(Resetar reglas iptables [\033[1;31mRIESGO\033[1;30m])\033[1;35m
-[14] Addhost \033[1;36m(Agregar Hosts)\033[1;35m
-[15] Remover_Host \033[1;36m(Remover Hosts)\033[1;35m
-[16] Monitorear_OpenSSH \033[1;36m(Monitorar conexiones OpenSSH)\033[0m\033[1;35m
-[17] Backup-Users \033[1;36m(Respaldo de usuarios)\033[1;35m
-[18] Rest-Users \033[1;36m(Restaurar usuarios de un backup)\033[1;35m
-[19] Usuarios_Detalles \033[1;36m(Informacion sobre los usuarios !!)\033[1;35m
-[20] Banner \033[1;36m(Agregar un banner)\033[1;35m
-[21] Speedtest \033[1;36m(Prueba de Conexion [velocidad de banda])\033[1;35m
-[22] Sistema_Detalles \033[1;36m(Detalles sobre el Sistema)\033[1;35m
-[23] Eliminar_Todos \033[1;36m(Todos los usuarios seran eliminados)\033[1;35m
-[24] Monitorear_Dropbear \033[1;36m(Monitorear conexiones PID Dropbear y Openssh )\033[1;35m
-[25] TCP_UDP \033[1;36m(Mostrar todos los puertos TCP/UDP Disponibles [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;35m
-[26] Herramientas \033[1;36m(Herramientas [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;35m
-[27] Desinstalar \033[1;36m(Desinstalar VPSPACK)\033[1;35m"
+echo -e "\033[1;33mSeleccione una opcion:    Para Salir Ctrl + C\033[1;32m
+[1] Configurar_Squid_SSH_Dropbear \033[1;36m(Configuracion Squid, OpenSSH y Dropbear)\033[1;32m
+[2] Limite \033[1;36m(limite de conexiones simultaneas)\033[1;32m
+[3] Crear_Usuario \033[1;36m(Crear usuarios)\033[1;32m
+[4] Remover_expirados \033[1;36m(Remover usuarios expirados)\033[1;32m
+[5] Crear_Prueba \033[1;36m(Criar usuarios de corta duracion)\033[1;32m
+[6] BadVpn \033[1;36m(Instala badvpn para tunnel udp)\033[1;32m
+[7] BadVpn_Start \033[1;36m(Activar llamadas voip, juegos online, etc)\033[1;32m
+[8] BadVpn_Stop \033[1;36m(Parar servicio de badvpn)\033[1;32m
+[9] Remover_Limite \033[1;36m(Remover limite de conexiones de un usuario)\033[1;32m
+[10] Modificar_Nombre \033[1;36m(Modificar el nombre de un usuario)\033[1;32m
+[11] Redefinir_Usuario \033[1;36m(Redefinir Fecha, contraseña, Eliminar, Apagar)\033[1;32m
+[12] Firewall-block \033[1;36m(bloquear torrent, icmp [\033[1;31mRIESGO\033[1;30m])\033[1;32m
+[13] Reset_Firewall \033[1;36m(Resetar reglas iptables [\033[1;31mRIESGO\033[1;30m])\033[1;32m
+[14] Addhost \033[1;36m(Agregar Hosts)\033[1;32m
+[15] Remover_Host \033[1;36m(Remover Hosts)\033[1;32m
+[16] Monitorear_OpenSSH \033[1;36m(Monitorar conexiones OpenSSH)\033[0m\033[1;32m
+[17] Backup-Users \033[1;36m(Respaldo de usuarios)\033[1;32m
+[18] Rest-Users \033[1;36m(Restaurar usuarios de un backup)\033[1;32m
+[19] Usuarios_Detalles \033[1;36m(Informacion sobre los usuarios !!)\033[1;32m
+[20] Banner \033[1;36m(Agregar un banner)\033[1;32m
+[21] Speedtest \033[1;36m(Prueba de Conexion [velocidad de banda])\033[1;32m
+[22] Sistema_Detalles \033[1;36m(Detalles sobre el Sistema)\033[1;32m
+[23] Eliminar_Todos \033[1;36m(Todos los usuarios seran eliminados)\033[1;32m
+[24] Monitorear_Dropbear \033[1;36m(Monitorear conexiones PID Dropbear y Openssh )\033[1;32m
+[25] TCP_UDP \033[1;36m(Mostrar todos los puertos TCP/UDP Disponibles [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;32m
+[26] Herramientas \033[1;36m(Herramientas [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;32m
+[27] Desinstalar \033[1;36m(Desinstalar VPSPACK)\033[1;32m"
 read -p "[1-27]: " opcao
 
 case $opcao in
