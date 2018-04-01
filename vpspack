@@ -740,104 +740,54 @@ case $opcao in
   read -p "Usuario: " user
   read -p "Limite: " limite
   limite $user $limite;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  3)
   criarusuario;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  4)
   removerexpirados;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  5)
   criarusuarioteste;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  6)
   badvpn_install;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  7)
   badvpn start;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  8)
   badvpn stop;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
  9)
   removerlimite;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 10)
   mudarnome;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 11)
   userredefine;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 12)
   firewallblock;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 13)
   resetfirewall;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 14)
   addhost;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 15)
   removerhost;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 16)
   monitorar;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-  vpspack;;
 17)
   backup_de_usuarios;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 18)
   restaurar_usuarios;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 19)
   detalhes_usuarios;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente vpspack..."
-  vpspack;;
 20)
   banner;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente vpspack..."
-   vpspack;;
 21)
   speedtest.py;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 22)
   sistemadetalhes;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 23)
   deletar_todos;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 24)
   dropbear;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 25)
   puertos;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
 26)
   tools;;
-  read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
   100)
    rm -rf /bin/speedtest.py 2>/dev/null
    rm -rf /bin/deletarusuario 2>/dev/null
@@ -847,8 +797,6 @@ case $opcao in
    rm -rf /bin/vpspack 2>/dev/null;;
   25)
    dropbear;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente VpsPack..."
-   vpspack;;
  *)
   id > /dev/null 2> /dev/null
 esac
