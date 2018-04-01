@@ -776,7 +776,7 @@ case $opcao in
    restaurar_usuarios;;
   19)
    detalhes_usuarios;;
-   read -r -p  " Presione una tecla para abrir nuevamente vpspack..."
+   read " Presione una tecla para abrir nuevamente vpspack..."
    /bin/vpspack;;
   20)
    banner;;
