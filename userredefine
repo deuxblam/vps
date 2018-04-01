@@ -49,19 +49,19 @@ read -p "opção [1-6]: " option
 
 if [ $option -eq 1 ]; then
 echo $name > "/etc/cache202.sh"
-userredefine.op1
+ userredefine.op1
 exit
 fi
 
 if [ $option -eq 2 ]; then
 echo $name > "/etc/cache202.sh"
-userredefine.op2
+ userredefine.op2
 exit
 fi
 
 if [ $option -eq 3 ]; then
 echo $name > "/etc/cache202.sh"
-userredefine.op3
+ userredefine.op3
 exit
 fi
 
