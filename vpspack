@@ -799,7 +799,7 @@ case $opcao in
   100)
    rm -rf /bin/speedtest.py 2>/dev/null
    rm -rf /bin/deletarusuario 2>/dev/null
-   rm -rf /bin/redefinirusuario 2>/dev/null
+   rm -rf /bin/UserRedefine 2>/dev/null
    rm -rf /bin/limite 2>/dev/null
    rm -rf /bin/criarusuario 2>/dev/null
    rm -rf /bin/vpspack 2>/dev/null;;
