@@ -764,7 +764,6 @@ case $opcao in
    mudarnome;; 
   11)
    UserRedefine;;
-   vpspack;;
   12)
    deletarusuario;;
   13)
