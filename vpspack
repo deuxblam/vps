@@ -733,8 +733,11 @@ echo -e "\033[1;33mSeleccione una opcion:    Para Salir Ctrl + C\033[1;35m
 [\033[1;35m25\033[1;32m] TCP_UDP \033[1;36m(Mostrar todos los puertos TCP/UDP Disponibles [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;35m
 [\033[1;35m26\033[1;32m] Herramientas \033[1;36m(Herramientas [\033[1;31mEXPERIMENTAL\033[1;30m])\033[1;35m
 [\033[1;35m100\033[1;32m] Desinstalar \033[1;36m(Desinstalar VPSPACK)\033[1;35m"
-read -p "[01-26]: " opcao
+read -p ": " opcao
 
+else
+opcao=$1
+fi
 case $opcao in
   1 | 01 )
    configurarsquid;;
