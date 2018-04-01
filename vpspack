@@ -764,8 +764,6 @@ case $opcao in
    mudarnome;; 
   11)
    UserRedefine;;
-   read -n1 -r -p " Presione una tecla para abrir nuevamente vpspack..."
-   vpspack;;
   12)
    deletarusuario;;
   13)
