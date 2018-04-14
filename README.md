@@ -10,9 +10,8 @@ apt-get update && apt-get upgrade && apt-get install ca-certificates && wget htt
 
 ### Servicios Instalados
 * OpenSSH 22, 443
-* Squid port 8080,80,3128 (HTTP)
-* Dropbear 444
-
+* Puerto Squid 8080,80,3128 (HTTP)
+1.
 
 
 *
